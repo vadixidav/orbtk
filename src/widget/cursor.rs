@@ -1,8 +1,8 @@
-use layout_object::TextSelectionLayoutObject;
-use render_object::RectangleRenderObject;
-use theme::Selector;
-use widget::{Template, Widget};
-use properties::{TextSelection, Label};
+use crate::layout_object::TextSelectionLayoutObject;
+use crate::render_object::RectangleRenderObject;
+use crate::theme::Selector;
+use crate::widget::{Template, Widget};
+use crate::properties::{TextSelection, Label};
 
 /// The `Cursor` represents a text cursor used to mark text.
 /// 

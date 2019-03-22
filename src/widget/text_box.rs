@@ -1,10 +1,10 @@
-use enums::ParentType;
-use event::{Key, KeyEventHandler, MouseEventHandler};
-use properties::{Focused, Label, Offset, Point, TextSelection, WaterMark};
+use crate::enums::ParentType;
+use crate::event::{Key, KeyEventHandler, MouseEventHandler};
+use crate::properties::{Focused, Label, Offset, Point, TextSelection, WaterMark};
 use std::cell::{Cell, RefCell};
 use std::rc::Rc;
-use theme::Selector;
-use widget::{
+use crate::theme::Selector;
+use crate::widget::{
     Container, Cursor, ScrollViewer, SharedProperty, Stack, State, Template, WaterMarkTextBlock,
     Widget, WidgetContainer,
 };

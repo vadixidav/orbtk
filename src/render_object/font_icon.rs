@@ -1,8 +1,8 @@
-use backend::Renderer;
-use render_object::RenderObject;
-use properties::{FontIcon, Point, Rect};
-use theme::{Selector, Theme};
-use widget::WidgetContainer;
+use crate::backend::Renderer;
+use crate::render_object::RenderObject;
+use crate::properties::{FontIcon, Point, Rect};
+use crate::theme::{Selector, Theme};
+use crate::widget::WidgetContainer;
 
 pub struct FontIconRenderObject;
 

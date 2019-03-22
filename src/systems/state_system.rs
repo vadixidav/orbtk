@@ -5,9 +5,9 @@ use std::collections::BTreeMap;
 
 use dces::{Entity, EntityComponentManager, System};
 
-use application::Tree;
-use properties::{Enabled, Focused, Pressed, Selected};
-use widget::{add_selector_to_widget, remove_selector_from_widget, State, WidgetContainer};
+use crate::application::Tree;
+use crate::properties::{Enabled, Focused, Pressed, Selected};
+use crate::widget::{add_selector_to_widget, remove_selector_from_widget, State, WidgetContainer};
 
 /// The `StateSystem` calls the update methods of widget states.
 pub struct StateSystem {

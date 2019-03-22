@@ -5,6 +5,7 @@ authors = [
     "Florian Blasius <flovanpt@posteo.de>",
     "Jeremy Soller <jackpot51@gmail.com>"
 ]
+edition = "2018"
 description = "The Orbital Widget Toolkit"
 documentation = "https://docs.rs/orbtk"
 repository = "https://gitlab.redox-os.org/redox-os/orbtk"
@@ -23,7 +24,7 @@ path = "src/lib.rs"
 [dependencies]
 cssparser = "0.17.0"
 lazy_static = "1.2.0"
-dces = { git = "https://gitlab.redox-os.org/redox-os/dces-rust.git" }
+dces = { git = "https://gitlab.redox-os.org/redox-os/dces-rust.git", rev = "48327918832155ea47579a1170452a84196dd04a"}
 orbclient = "0.3.18"
 orbfont = { git = "https://gitlab.redox-os.org/redox-os/orbfont.git" }
 orbimage = "0.1.16"

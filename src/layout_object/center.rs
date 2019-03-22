@@ -1,6 +1,6 @@
-use {Constraint, Entity, EntityComponentManager, LayoutObject, LayoutResult, Theme};
+use crate::{Constraint, Entity, EntityComponentManager, LayoutObject, LayoutResult, Theme};
 
-use properties::Rect;
+use crate::properties::Rect;
 
 pub struct CenterLayoutObject;
 

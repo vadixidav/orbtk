@@ -1,6 +1,6 @@
 use std::any::{Any, TypeId};
 
-use {Event, EventStrategy};
+use crate::{Event, EventStrategy};
 
 #[derive(Debug)]
 pub enum EventError {

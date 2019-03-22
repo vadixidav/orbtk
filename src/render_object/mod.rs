@@ -1,9 +1,9 @@
 //! This module contains all render objects used in OrbTk. Render objects are used to define how to draw parts of a widget.
 
-use backend::Renderer;
-use theme::Theme;
-use widget::WidgetContainer;
-use properties::Point;
+use crate::backend::Renderer;
+use crate::theme::Theme;
+use crate::widget::WidgetContainer;
+use crate::properties::Point;
 
 pub use self::font_icon::FontIconRenderObject;
 pub use self::rectangle::RectangleRenderObject;

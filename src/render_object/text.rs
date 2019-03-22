@@ -1,8 +1,8 @@
-use backend::Renderer;
-use render_object::RenderObject;
-use properties::{Label, Point, Rect, WaterMark};
-use theme::{Selector, Theme};
-use widget::WidgetContainer;
+use crate::backend::Renderer;
+use crate::render_object::RenderObject;
+use crate::properties::{Label, Point, Rect, WaterMark};
+use crate::theme::{Selector, Theme};
+use crate::widget::WidgetContainer;
 
 pub struct TextRenderObject;
 

@@ -1,8 +1,8 @@
 use std::rc::Rc;
 
-use event::{Event, EventBox, EventHandler};
-use properties::{Point, Rect};
-use widget::WidgetContainer;
+use crate::event::{Event, EventBox, EventHandler};
+use crate::properties::{Point, Rect};
+use crate::widget::WidgetContainer;
 
 pub fn check_mouse_condition(position: Point, widget: &WidgetContainer) -> bool {
     if let Ok(bounds) = widget.borrow_property::<Rect>() {

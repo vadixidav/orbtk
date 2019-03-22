@@ -8,10 +8,10 @@ use std::rc::Rc;
 use dces::World;
 use orbclient::Color;
 
-use application::Tree;
-use event::EventQueue;
-use properties::{Point, Rect};
-use theme::Theme;
+use crate::application::Tree;
+use crate::event::EventQueue;
+use crate::properties::{Point, Rect};
+use crate::theme::Theme;
 
 /// Is used to provides data from the `Backend` to the `RenderSystem`.
 pub struct RenderContext<'a> {
